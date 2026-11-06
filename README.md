@@ -45,6 +45,10 @@ a reproducible Python generator, and a structured serial reporting protocol.
 experiment with Codex to explore blockchain mechanics. It is a learning exercise,
 not a flagship project or evidence of production blockchain experience.
 
+[RustPHP](https://github.com/Obscuretone/RustPHP) is an automation-driven,
+AI-assisted runtime/compiler prototype. Development is paused; it is incomplete
+and is not production software or a supported PHP replacement.
+
 ## Backend experiments
 
 I have also explored task APIs across
