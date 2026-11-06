@@ -18,7 +18,6 @@ choices, constraints, and verification work available for review.
 | [PyGameBoy](https://github.com/Obscuretone/pygameboy) | Python Game Boy emulator: CPU dispatch, NumPy rendering, audio pacing, and cartridge banking | [Architecture](https://github.com/Obscuretone/pygameboy/blob/main/ARCHITECTURE.md) · [Benchmarks](https://github.com/Obscuretone/pygameboy/blob/main/BENCHMARKS.md) |
 | [GBPython](https://github.com/Obscuretone/GBPython) | Python interpreter on a Game Boy, with banked SRAM, software floats, and an interactive REPL | [Architecture](https://github.com/Obscuretone/GBPython/blob/main/docs/ARCHITECTURE.md) · [Emulator tests](https://github.com/Obscuretone/GBPython/blob/main/tests/run_tests.py) |
 | [Nira](https://github.com/Obscuretone/nira) | Local issue tracker with a Python CLI, web UI, SQLite storage, and workflows for people and agents | [Quick start](https://github.com/Obscuretone/nira#quick-start) · [Tests](https://github.com/Obscuretone/nira/tree/main/tests) |
-| [BlockchainCoin](https://github.com/Obscuretone/BlockchainCoin) | Academic UTXO node: durable state, fork choice, peer protocol, and reproducible builds | [Architecture](https://github.com/Obscuretone/BlockchainCoin/blob/main/docs/architecture.md) |
 | [factorer](https://github.com/Obscuretone/factorer) | Parallel Fermat factorization in Go, with bounded searches and worker scaling benchmarks | [Build and benchmarks](https://github.com/Obscuretone/factorer#build) |
 | [Dive](https://github.com/Obscuretone/dive) | Laravel/React task planner with AI subtask generation and shared rate-limit handling | [Setup and API](https://github.com/Obscuretone/dive#backend-setup) |
 
@@ -39,6 +38,12 @@ a reproducible Python generator, and a structured serial reporting protocol.
   [production incidents](https://obscuretone.com/posts/en/trial_by_fire) and
   [engineering metrics](https://obscuretone.com/posts/en/pieces_of_flair)
   covers reliability, feedback loops, and the incentives around software delivery.
+
+## Experiments
+
+[BlockchainCoin](https://github.com/Obscuretone/BlockchainCoin) is a vibe-coded
+experiment with Codex to explore blockchain mechanics. It is a learning exercise,
+not a flagship project or evidence of production blockchain experience.
 
 ## Backend experiments
 
