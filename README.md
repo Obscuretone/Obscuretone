@@ -1,8 +1,13 @@
 # Evan d'Entremont
 
-Software developer based in Montreal. I build emulators, language runtimes,
-and backend tools, with an interest in how design decisions hold up under
-hardware constraints, testing, and real workloads.
+Montreal-based software developer focused on systems, backend architecture,
+and developer tooling. I am interested in **senior, lead, and staff engineering**
+roles, as well as **software development management**.
+
+My background spans backend, full-stack, and embedded work, including core
+services, compliance tooling, incident management, QA process design, database
+performance, and industrial/IoT interfaces. My public projects make the design
+choices, constraints, and verification work available for review.
 
 [Engineering notes](https://obscuretone.com) · [Email](mailto:marc@obscuretone.com)
 
@@ -20,6 +25,20 @@ hardware constraints, testing, and real workloads.
 [Obscuretone Test ROM](https://github.com/Obscuretone/obscuretone-test-rom)
 complements the Game Boy projects with self-checking opcode and subsystem probes,
 a reproducible Python generator, and a structured serial reporting protocol.
+
+## Engineering approach
+
+- **Architecture grounded in constraints:** explain boundaries, failure modes,
+  and performance costs before adding complexity. PyGameBoy and GBPython make
+  those tradeoffs concrete at the CPU, memory, and runtime level.
+- **Quality as a delivery practice:** use reproducible builds, automated checks,
+  conformance tests, and focused commits so changes can be reviewed and maintained.
+- **Tools that support a team:** Nira explores a shared workflow for people and
+  agents, with a CLI for automation and a web UI for review.
+- **Operational judgment:** my writing on
+  [production incidents](https://obscuretone.com/posts/en/trial_by_fire) and
+  [engineering metrics](https://obscuretone.com/posts/en/pieces_of_flair)
+  covers reliability, feedback loops, and the incentives around software delivery.
 
 ## Backend experiments
 
