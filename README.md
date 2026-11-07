@@ -25,14 +25,6 @@ choices, constraints, and verification work available for review.
 complements the Game Boy projects with self-checking opcode and subsystem probes,
 a reproducible Python generator, and a structured serial reporting protocol.
 
-## Recent developer tooling
-
-[Repository Policy Evidence](https://github.com/Obscuretone/repo-policy-evidence)
-is a bounded, AI-assisted prototype for read-only GitHub audits. It ties three explicit
-controls to a captured commit, preserves unknown results when evidence is missing, and
-supports deterministic offline replay. Start with the fictional HTML demo, evidence
-contract, and tests; it is not a production compliance service.
-
 ## Engineering approach
 
 - **Architecture grounded in constraints:** explain boundaries, failure modes,
